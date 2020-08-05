@@ -1,0 +1,226 @@
+/*!
+ * Start Bootstrap - Modern Business (https://startbootstrap.com/templates/modern-business)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-logomodern-business-nav/blob/master/LICENSE)
+ */
+ *{
+   padding: 0;
+   margin: 0;
+ }
+ .example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE, Edge and Firefox */
+.example {
+  -ms-overflow-style: none;  /* IE and Edge */
+  scrollbar-width: none;  /* Firefox */
+}
+h1,h2,h3,h4,p,a{
+  font-family: 'Ubuntu', sans-serif;
+}
+
+
+.portfolio-item {
+  margin-bottom: 30px;
+}
+
+
+.navbar-brand img{
+  width: 70px;
+}
+
+
+
+/* background-video */
+
+.landing_page{
+  background-color: #0000003b;
+  
+  overflow: hidden;
+  width: 100vw;
+  height: 100vh;
+  margin-bottom: 40px;
+  position: relative;
+  display: grid;
+  place-items: center;
+ 
+ }
+ .landing_page .navbar{
+   background-color: #00000065;
+ }
+ .landing_page h1{
+   font-size: 4rem;
+   color: rgba(255, 255, 255, 0.753);
+   font-weight: lighter;
+   font-family: 'Kaushan Script', cursive;
+ }
+ .landing_page h2{
+  font-size: 1rem;
+  padding-bottom:5px;
+  color: rgb(134, 210, 240);
+  font-family: 'Kaushan Script', cursive;
+  border-bottom: 4px solid rgba(255, 62, 158, 0.568);
+  border-bottom-left-radius: 20%;
+  border-bottom-right-radius: 20%;
+}
+video {
+  background-attachment: fixed;
+  object-fit: cover;
+  width: 100vw;
+  height: 90vh;
+  position: sticky;
+  top: 0;
+  left: 0;
+  opacity: 1;
+}
+
+.video-background { /* class name used in javascript too */
+  width: 100%; /* width needs to be set to 100% */
+  height: 100%; /* height needs to be set to 100% */
+  position: absolute;
+  left: 0;
+  top: 0;
+  z-index: -1;
+}
+/* -------------- */
+
+
+
+
+/* services */
+#services{
+  padding: 5% 5%;
+  height: auto;
+  background-image: url(../images/Web\ 1920\ –\ 1.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.content_text{
+  text-align: center;
+  padding-bottom: 30px;
+ 
+}
+.content_text p{
+  width:50vw;
+  margin: auto;
+}
+
+#services  img{
+  width: 12rem;
+  transition: ease-in 0.4s;
+  border-radius: 10%;
+}
+#services img:hover{
+  width: 15rem;
+  transition: ease-out 0.4s;
+  z-index: 1;
+  position: relative;
+}
+#services .row h3{
+
+  padding: 10px;
+  font-size: 1rem;
+  color: rgb(63, 63, 63);
+}
+
+/* pricing */
+
+#price {
+  margin-top: 10px;
+	padding:7% 7%;
+}
+#price h1{
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, "sans-serif";
+	text-align: center;
+	font-weight: bold;
+	color:#4F4F4F;
+	padding-bottom: 10px;
+}
+.card{
+	text-align: center;box-shadow: #6F6F6F 2px 2px 10px;
+}
+.card-1{
+	background-color:#FF6565;
+	color:white;
+	border:none;
+}
+.card-1 .btn{
+	background-color: #B24747;
+	border: none;
+}
+.card-1 ul li{
+	background-color:#FF6565;
+	border:none;
+}
+.card-2 {
+	background-color: #3B86FF;
+	color:white;
+	border:none;
+}
+.card-2 .btn{
+	background-color: #295EB2;
+	border: none;
+}
+.card-2 ul li{
+	background-color: #3B86FF;
+	border:none;
+}
+.card-3{
+	background-color:#43425D;
+	color:white;
+	border:none;
+}
+.card-3 .btn{
+	background-color: #2E2E41;
+	border: none;
+}
+.card-3 ul li{
+	background-color:#43425D;
+	border:none;
+}
+
+/* footer */
+.footer .container{
+  text-align: center;
+ }
+ .footer .container a{
+  color: tomato;
+  margin-top: 30px;
+  padding: 10px;
+ }
+ .footer .container a:hover{
+   color: black;
+  }
+ .footer .container p{
+   padding: 10px;
+  }
+
+
+
+  @media only screen and (max-width: 900px) {
+   video{
+     src: url(..videos/mongo.mp4);
+   }
+    .landing_page{
+      height: 100vh;
+    
+     
+     }
+    .landing_page h1{
+      font-size: 2rem;
+     
+    }
+    .landing_page h2{
+     font-size: 1rem;
+    
+   }
+   
+    .content_text p{
+      width:auto;
+      margin: auto;
+    }
+
+  }
